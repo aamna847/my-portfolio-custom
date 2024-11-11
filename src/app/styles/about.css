@@ -1,0 +1,46 @@
+.about-container {
+    padding-top: 8rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.about-heading {
+    font-size: 2.25rem;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.about-section {
+    color: #754f73;
+    padding-top: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+@media (min-width: 768px){
+    .about-heading{
+        font-size: 3rem;
+    }
+    .about-main {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-heading {
+        font-size: 1.875rem;
+    }
+    .about-main {
+        font-size: 1.125rem;
+    }
+
+   .about-container {
+    padding-top: 6rem;
+    font-size: 1.125rem;
+  }
+}

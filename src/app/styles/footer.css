@@ -1,0 +1,22 @@
+.foooter {
+    margin-top: 4rem;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #08E95E;
+    color: rgb(126, 200, 89);
+    font-size: 1 rem;
+}
+
+@media (max-width: 760px) {
+    .foooter{
+        padding: 1rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .foooter {
+       padding: 1.5rem;
+       font-size: 1.125re
+    }
+}
